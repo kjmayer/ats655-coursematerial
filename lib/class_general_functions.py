@@ -51,6 +51,7 @@ def fig(fig_num=None, fig_width=fig_width, fig_height=fig_height):
     
     # make new figure
     ax_f = plt.figure(num=fig_num, figsize = (fig_width_in, fig_height_in))    
+    ax = plt.gca()
     
 #    # set default values for figures
     plt.rc('lines', linewidth=lw)    
@@ -60,7 +61,7 @@ def fig(fig_num=None, fig_width=fig_width, fig_height=fig_height):
     plt.rc('axes',titlesize=fig_text_size,titleweight='bold')
     plt.rc('axes', prop_cycle = cycler('color',['black','#A2132F','#0072BE','#EDB120','#D95319','#7E2F8E','#77AC30','#4DBEEE']))        
     
-    return ax_f
+    return ax_f, ax
     
 def cfig(fig_num=None, fig_width=fig_width, fig_height=fig_height):
 
@@ -72,6 +73,7 @@ def cfig(fig_num=None, fig_width=fig_width, fig_height=fig_height):
     # make new figure
     ax_f = plt.figure(num=fig_num, figsize = (fig_width_in, fig_height_in))    
     plt.clf()   
+    ax = plt.gca()
    
     
 #    # set default values for figures
@@ -82,4 +84,4 @@ def cfig(fig_num=None, fig_width=fig_width, fig_height=fig_height):
     plt.rc('axes',titlesize=fig_text_size,titleweight='bold')
     plt.rc('axes', prop_cycle = cycler('color',['black','#A2132F','#0072BE','#EDB120','#D95319','#7E2F8E','#77AC30','#4DBEEE']))        
     
-    return ax_f
+    return ax_f, ax
