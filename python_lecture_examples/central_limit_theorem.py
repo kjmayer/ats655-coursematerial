@@ -70,7 +70,7 @@ plt.ylabel('frequency')
 
 plt.xlim(-8,8)
 
-gf.show_plot()
+plt.show()
 
 #%%
 
@@ -114,7 +114,7 @@ plt.ylabel('frequency')
 plt.legend(fontsize = 15)
 plt.title('Standard Normal distribution of means')
 
-gf.show_plot()
+plt.show()
 
 #%%
 
@@ -169,7 +169,7 @@ for N in (5, 25, 100, 200):
     plt.title('N = ' + str(N))
     plt.legend(fontsize = 15)
     
-    gf.show_plot()   
+    plt.show()   
     plt.pause(4)
     
     

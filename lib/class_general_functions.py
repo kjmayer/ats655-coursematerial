@@ -26,13 +26,13 @@ clr0, clr1, clr2, clr3 = 'black', 'royalblue', 'darkorange', 'mediumorchid'
 
 dpi_save = 600.
 
-fig_text_size = 10.
+fig_text_size = 14.
 fig_title_size = fig_text_size*1.5
 
 lw = 2.0
 markersize = 10.
 
-fig_width = 42.0
+fig_width = 60.0
 fig_height = fig_width/1.5
 
 #%%
