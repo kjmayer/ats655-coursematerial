@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 from cycler import cycler
 
@@ -25,14 +26,17 @@ clr0, clr1, clr2, clr3 = 'black', 'royalblue', 'darkorange', 'mediumorchid'
 # darker blue: (128/256.,171/256.,255/256.)
 
 dpi_save = 600.
+dpi_mpl = 250.
 
-fig_text_size = 14.
+mpl.rcParams['figure.dpi']= dpi_mpl
+
+fig_text_size = 13.
 fig_title_size = fig_text_size*1.5
 
 lw = 2.0
 markersize = 10.
 
-fig_width = 60.0
+fig_width = 45.0
 fig_height = fig_width/1.5
 
 #%%
