@@ -10,6 +10,14 @@ fig_dir = '/Users/eabarnes/GoogleDrive/WORK/TEACHING/ATS655/S18/python_code/figu
 
 #%% SPECIFICIATIONS FOR TEXTBOOK FIGURES
 
+mpl.rcParams['font.family'] = 'sans-serif'
+mpl.rcParams['font.sans-serif'] = ['Helvetica']
+mpl.rcParams['axes.linewidth'] = 1.5
+mpl.rcParams['xtick.major.width'] = 1.5
+mpl.rcParams['xtick.minor.width'] = .75
+mpl.rcParams['ytick.major.width'] = 1.5
+mpl.rcParams['ytick.minor.width'] = .75
+
 # colors for plots
 #global clr1, clr2
 
@@ -26,17 +34,17 @@ clr0, clr1, clr2, clr3 = 'black', 'royalblue', 'darkorange', 'mediumorchid'
 # darker blue: (128/256.,171/256.,255/256.)
 
 dpi_save = 600.
-dpi_mpl = 250.
+dpi_mpl = 150.
 
 mpl.rcParams['figure.dpi']= dpi_mpl
 
-fig_text_size = 13.
+fig_text_size = 10.
 fig_title_size = fig_text_size*1.5
 
 lw = 2.0
 markersize = 10.
 
-fig_width = 45.0
+fig_width = 30.0
 fig_height = fig_width/1.5
 
 #%%
