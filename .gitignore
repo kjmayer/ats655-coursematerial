@@ -1,5 +1,5 @@
 others_code/
 #.gitignore
-python_lecture_examples/*.mat
-python_lecture_examples/*.csv
+#python_lecture_examples/*.mat
+#python_lecture_examples/*.csv
 .ipynb_checkpoints/
