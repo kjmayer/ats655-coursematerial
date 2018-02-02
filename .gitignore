@@ -1,6 +1,5 @@
 others_code/
 #.gitignore
-z500_daily.mat
 python_lecture_examples/*.mat
 python_lecture_examples/*.csv
 .ipynb_checkpoints/
