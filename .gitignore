@@ -1,7 +1,7 @@
 #.gitignore
 .ipynb_checkpoints/
 others_code/
-
+python_lecture_examples/
 
 
 # how to send large files to .gitignore
